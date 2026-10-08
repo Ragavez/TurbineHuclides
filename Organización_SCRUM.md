@@ -21,10 +21,10 @@ En **Integrante**, el nombre completo; en **Rol**, Product Owner, Scrum Master o
 
 Anotad aquí las tareas acordadas para el trabajo. Indicad una persona responsable por tarea; podéis añadir más responsables si trabajáis en pareja.
 
-| ID de tarea | Tarea | Responsable(s) | Sprint | Prioridad | Estado |
-|-------------|-------|----------------|--------|-----------|--------|
-|             |       |                |        |           |        |
-|             |       |                |        |           |        |
+| ID de tarea |       Tarea      | Responsable(s) | Sprint | Prioridad | Estado |
+|-------------|------------------|----------------|--------|-----------|--------|
+|   |Tablón para organización SCRUM|  Miguel de Lara | 1 |  ALTA     | COMPLETADO |
+|     |       |                |        |           |        |            
 |             |       |                |        |           |        |
 |             |       |                |        |           |        |
 |             |       |                |        |           |        |
