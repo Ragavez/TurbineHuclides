@@ -4,7 +4,7 @@ Este documento sirve para acordar los roles del equipo y mantener un registro de
 
 ## Roles del equipo
 
-Cada integrante puede escribir su nombre o usuario de GitHub y el rol que asume. En Scrum, el equipo de desarrollo se denomina **Developers**; no es necesario asignar a cada persona un cargo distinto.
+Cada integrante puede escribir su nombre y el rol que asume. En Scrum, no es necesario asignar a cada persona un cargo distinto.
 
 | Integrante                  | Rol | Responsabilidades |
 |-----------------------------|-----|-------------------|
@@ -21,9 +21,11 @@ En **Integrante**, el nombre completo; en **Rol**, Product Owner, Scrum Master o
 
 Anotad aquí las tareas acordadas para el trabajo. Indicad una persona responsable por tarea; podéis añadir más responsables si trabajáis en pareja.
 
+## -----------Aunque en la edición salga descolocado al hacer el guardar los cambios la tabla saldrá perfectamente.------------
+
 | ID de tarea |       Tarea      | Responsable(s) | Sprint | Prioridad | Estado |
 |-------------|------------------|----------------|--------|-----------|--------|
-|   |Tablón para organización SCRUM|  Miguel de Lara | 1 |  ALTA     | COMPLETADO |
+|  T-01 |Tablón para organización SCRUM|  Miguel de Lara | 1 |  ALTA     | COMPLETADO |
 |     |       |                |        |           |        |            
 |             |       |                |        |           |        |
 |             |       |                |        |           |        |
