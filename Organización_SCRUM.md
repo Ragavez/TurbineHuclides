@@ -37,7 +37,7 @@ En **ID de tarea**, un número o código; en **Tarea**, qué hay que hacer; en *
 ## Cómo actualizarlo en GitHub
 
 1. Subid este archivo al repositorio del grupo.
-2. Abrid `SCRUM.md` en GitHub y pulsad el icono del lápiz (**Edit this file**).
+2. Abrid `Organización_SCRUM.md` en GitHub y pulsad el icono del lápiz (**Edit this file**).
 3. Editad las celdas de las tablas; para añadir filas, copiad una fila vacía y mantened los separadores `|`.
 4. Pulsad **Commit changes** para guardar y registrar la actualización en el repositorio.
 
