@@ -26,7 +26,7 @@ Anotad aquí las tareas acordadas para el trabajo. Indicad una persona responsab
 | ID de tarea |       Tarea      | Responsable(s) | Sprint | Prioridad | Estado |
 |-------------|------------------|----------------|--------|-----------|--------|
 |  T-01 |Tablón para organización SCRUM|  Miguel de Lara | 1 |  ALTA     | COMPLETADO |
-|     |       |                |        |           |        |            
+|   T-02  |    Revisión requisitos entrevista   |     TODOS           |    1    |     ALTA      |    COMPLETADO    |            
 |             |       |                |        |           |        |
 |             |       |                |        |           |        |
 |             |       |                |        |           |        |
