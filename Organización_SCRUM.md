@@ -8,12 +8,12 @@ Cada integrante puede escribir su nombre y el rol que asume. En Scrum, no es nec
 
 | Integrante                  | Rol | Responsabilidades |
 |-----------------------------|-----|-------------------|
-| Cristina Arranz Avilés      |     |                   |
-| José Bernal Carretero       |     |                   |
-| José María Domínguez Torres |     |                   |
-| Víctor Gallegos Ramírez     |     |                   |
-| Miguel de Lara Prades       |     |                   |
-| Rocío Troyano Gil           |     |                   |
+| Cristina Arranz Avilés      |Product owner|PDF Diagrama Casos de Uso|
+| José Bernal Carretero       |     |PDF Casos de Uso|
+| José María Domínguez Torres |     |PDF Casos de Uso|
+| Víctor Gallegos Ramírez     |Scrum Master|PDF Diagrama Casos de Uso|
+| Miguel de Lara Prades       |     |SCRUM BACKLOG|
+| Rocío Troyano Gil           |     |Presentación|
 
 En **Integrante**, el nombre completo; en **Rol**, Product Owner, Scrum Master o Developer; en **Responsabilidades**, las tareas principales de ese rol.
 
@@ -25,12 +25,12 @@ Anotad aquí las tareas acordadas para el trabajo. Indicad una persona responsab
 
 | ID de tarea |       Tarea      | Responsable(s) | Sprint | Prioridad | Estado |
 |-------------|------------------|----------------|--------|-----------|--------|
-|  T-01 |Tablón para organización SCRUM|  Miguel de Lara | 1 |  ALTA     | COMPLETADO |
-|   T-02  |    Revisión requisitos entrevista   |     TODOS           |    1    |     ALTA      |    COMPLETADO    |            
-|             |       |                |        |           |        |
-|             |       |                |        |           |        |
-|             |       |                |        |           |        |
-|             |       |                |        |           |        |
+|  T-01 |Tablón para organización SCRUM|  Miguel de Lara | 1 |  ALTA     | HACIDO |
+|   T-02  |    Revisión requisitos entrevista   |     TODOS           |    1    |     ALTA      |    HACIDO    |            
+|T-03|       Revisión requisitos Ampliación| TODOS | 2 |ALTA          | HACIDO       |
+|     T-04        | PDF Casos de Uso       |     Chema y José           |     2   |    ALTA       |    HACERÁ    |
+|      T-05       |   PDF Diagrama Casos de Uso    | Víctor y Cristina                |    2    |        ALTA   |   HACERÁ     |
+|       T-06      |   Presentación    |  Rocío              | 2        | ALTA           | HACERÁ        |
 |             |       |                |        |           |        |
 |             |       |                |        |           |        |
 
