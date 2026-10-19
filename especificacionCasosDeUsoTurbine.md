@@ -17,7 +17,7 @@ La gestoría no es actor: recibe un paquete exportado (CU-26) y no tiene usuario
 
 ---
 
-## 2. Casos de uso (plantilla Cockburn)
+## 2. Casos de uso 
 
 ### Clientes y contactos
 
