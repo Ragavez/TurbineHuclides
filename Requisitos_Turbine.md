@@ -15,7 +15,9 @@
 * **RU3. Control por Roles y Ámbitos:** Accesos diferenciados según rol (Superadmin, Admin, Operador) restringiendo la vista de clientes/facturas a lo asignado.
 * **RU4. Explicabilidad del Dashboard:** Capacidad de clicar en cualquier KPI financiero (facturado, cobrado, pendiente) para desglosar los documentos que lo forman.
 
-## 3. Requisitos Funcionales (RF)
+## 3. Requisitos del sistema
+
+## 3.1. Requisitos Funcionales (RF)
 
 ### Gestión de Clientes, Contactos y Privacidad
 * **RF1. Ficha Comercial y Fiscal:** Registrar nombre comercial, razón social, NIF/identificador fiscal, domicilio, país, moneda y estado comercial.
@@ -54,7 +56,7 @@
 * **RF26. Exportación para Gestoría:** Paquete mensual/trimestral formateado con facturas emitidas, rectificativas y cobros para asesoría.
 * **RF27. Entorno de Sandbox y Datos de Demo:** Capacidad de cargar y ejecutar datos sintéticos/demo separados de producción para pruebas sin riesgo.
 
-## 4. Requisitos No Funcionales (RNF)
+## 3.2. Requisitos No Funcionales (RNF)
 
 * **RNF1. Idempotencia y Prevención del Doble Clic:** Bloqueo de botones e identificadores únicos en operaciones monetarias para evitar cobros o emisiones duplicadas.
 * **RNF2. Precisión Decimal Strict:** Cálculos con decimales exactos evitando errores de redondeo o coma flotante entre pantalla, PDF e informes.
