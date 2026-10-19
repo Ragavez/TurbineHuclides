@@ -16,7 +16,7 @@
 
 ## 3. Requisitos del sistema
 
-## 3.1 Requisitos Funcionales (RF)
+## 3.1 Requisitos Funcionales (FR)
 
 ### Acceso, Usuarios y Clientes
 * **FR1** - **Ciclo de Vida de Usuarios:** Invitación de usuarios sin autorregistro, recuperación por enlace caducable y desactivación manteniendo autoría histórica.
