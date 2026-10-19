@@ -25,22 +25,28 @@ Anotad aquí las tareas acordadas para el trabajo. Indicad una persona responsab
 
 | ID de tarea |       Tarea      | Responsable(s) | Sprint | Prioridad | Estado |
 |-------------|------------------|----------------|--------|-----------|--------|
-|  T-01 |Tablón para organización SCRUM|  Miguel de Lara | 1 |  ALTA     | COMPLETADO |
-|   T-02  |    Revisión requisitos entrevista   |     TODOS           |    1    |     ALTA      |    COMPLETADO   |            
-|T-03|       Revisión requisitos Ampliación| TODOS | 2 |ALTA          | COMPLETADO       |
-|     T-04        | PDF Casos de Uso       |     Chema y José           |     2   |    ALTA       |    COMPLETADO    |
-|      T-05       |   PDF Diagrama Casos de Uso    | Víctor y Cristina                |    2    |        ALTA   |   COMPLETADO   |
-|       T-06      |   Presentación    |  Rocío              | 2        | ALTA           | COMPLETADO        |
+|  T-01 |Tablón para organización SCRUM|  Miguel de Lara | 1 |  MEDIA    | COMPLETADO |
+|   T-02  |    Revisión requisitos entrevista   |     TODOS           |    1    |     ALTA      |    COMPLETADO   |      
+|T-03|       Comprensión requisitos ampliación| TODOS | 1 |ALTA          | COMPLETADO       |
+|T-04|       Revisión requisitos Ampliación| TODOS | 2 |MEDIA         | COMPLETADO       |
+|     T-05        | PDF Casos de Uso       |     Chema y José           |     2   |    ALTA       |    COMPLETADO    |
+|      T-06       |   PDF Diagrama Casos de Uso    | Víctor y Cristina                |    2    |        ALTA   |   COMPLETADO   |
+|       T-07      |   Presentación    |  Rocío              | 2        | MEDIA/ALTA          | COMPLETADO        |
+|       T-08      |  Scrum Backlog     |         Miguel       |     2   |    MEDIA       |   COMPLETADO     |
+|             |       |                |        |           |        |
 |             |       |                |        |           |        |
 |             |       |                |        |           |        |
 
 En **ID de tarea**, un número o código; en **Tarea**, qué hay que hacer; en **Responsable(s)**, quién la hará; en **Sprint**, el sprint al que pertenece; en **Prioridad**, alta, media o baja; en **Estado**, pendiente, en curso o hecha.
 
-## Cómo actualizarlo en GitHub
+##SCRUM BACKLOG (SPRINT 1 Y 2):
 
-1. Subid este archivo al repositorio del grupo.
-2. Abrid `Organización_SCRUM.md` en GitHub y pulsad el icono del lápiz (**Edit this file**).
-3. Editad las celdas de las tablas; para añadir filas, copiad una fila vacía y mantened los separadores `|`.
-4. Pulsad **Commit changes** para guardar y registrar la actualización en el repositorio.
+**SPRINT 1** Durante el primer sprint organizamos el equipo y revisamos los requisitos recogidos en la charla con el cliente para comprender el problema que debiamos resolver. Identificamos como objetivo principal automatizar la facturación y la gestión de cobros, reduciendo la intervención manual en la operativa administrativa.
 
-Las personas que editen directamente el repositorio necesitan permiso de escritura. Si no lo tienen, pueden proponer los cambios mediante un *pull request*.
+Además, acordamos los roles scrum, el reparto inicial de tareas y creamos un tablón de seguimiento con responsables, prioridades, estados y asignación por sprint. Como resultado, dispusimos de una base de organización y de una primera comprensión de los requisitos, tanto los de la charla como los de la ampliación.
+
+**SPRINT 2** Durante el segundo sprint revisamos la ampliación de requisitos y concretamos el funcionamiento esperado del sistema de facturación y cobros. 
+
+A partir de este análisis, elaboramos la especificación de 33 casos de uso, con sus actores, precondiciones, escenarios principales, flujos alternativos, y preparamos el diagrama UML correspondiente. También elaboramos la presentación para contextualizar el trabajo de nuestro grupo durante estos dos primeros sprints de trabajo.
+
+
