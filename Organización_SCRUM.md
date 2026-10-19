@@ -9,11 +9,11 @@ Cada integrante puede escribir su nombre y el rol que asume. En Scrum, no es nec
 | Integrante                  | Rol | Responsabilidades |
 |-----------------------------|-----|-------------------|
 | Cristina Arranz Avilés      |Product owner|PDF Diagrama Casos de Uso|
-| José Bernal Carretero       |     |PDF Casos de Uso|
-| José María Domínguez Torres |     |PDF Casos de Uso|
+| José Bernal Carretero       | Developer    |PDF Casos de Uso|
+| José María Domínguez Torres | Developer    |PDF Casos de Uso|
 | Víctor Gallegos Ramírez     |Scrum Master|PDF Diagrama Casos de Uso|
-| Miguel de Lara Prades       |     |SCRUM BACKLOG|
-| Rocío Troyano Gil           |     |Presentación|
+| Miguel de Lara Prades       | Developer    |SCRUM BACKLOG|
+| Rocío Troyano Gil           | Developer    |Presentación|
 
 En **Integrante**, el nombre completo; en **Rol**, Product Owner, Scrum Master o Developer; en **Responsabilidades**, las tareas principales de ese rol.
 
