@@ -13,8 +13,6 @@
 | **Sistema Cliente (Brain / API)** | Secundario, sistema | Consulta deuda y notifica solicitudes de baja mediante API autenticada. |
 | **Proveedor de correo / WhatsApp (simulado)** | Secundario, sistema | Entrega y reporta el resultado de los envíos. |
 
-La gestoría no es actor: recibe un paquete exportado (CU-26) y no tiene usuario en esta versión. Herencia de roles: Superadministrador hereda de Administrador, que hereda de Operativo. Las copias de seguridad y su restauración son un requisito transversal sin caso de uso propio; el Motor las ejecuta como parte de la operación.
-
 ---
 
 ## 2. Casos de uso 
