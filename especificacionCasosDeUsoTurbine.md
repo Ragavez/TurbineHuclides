@@ -1,16 +1,3 @@
-1# Turbine - Catálogo de casos de uso (revisión)
-
-**Sistema de Facturación y Cobros de Turbine**  
-**Catálogo de casos de uso (plantilla Cockburn)**  
-*Análisis y Diseño de Aplicaciones - Grado en Ingeniería Informática, UMA*
-
-**Contenido.** 33 casos de uso con actores, escenario principal, extensiones y relaciones, la tabla de relaciones `<<include>>` y `<<extend>>`, las decisiones registradas y la correspondencia con la versión anterior. Los códigos RN, RU, RF y RNF remiten a la lista de requisitos ampliada; donde se indica «confirmar» el código procede del antiguo caso de uso y debe comprobarse.
-
-**Niveles.** Resumen (proceso largo o batch), Objetivo de usuario (una sesión con valor) y Subfunción (pieza reutilizada por otros casos de uso). Los flujos alternativos usan la numeración del paso que ramifican.
-
-**Convención de relaciones.** «A extend B» significa que A extiende a B (la flecha UML sale de A hacia B). «A include B» significa que A incluye siempre a B.
-
----
 
 ## 1. Actores
 
