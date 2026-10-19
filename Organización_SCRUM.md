@@ -39,13 +39,13 @@ Anotad aquí las tareas acordadas para el trabajo. Indicad una persona responsab
 
 En **ID de tarea**, un número o código; en **Tarea**, qué hay que hacer; en **Responsable(s)**, quién la hará; en **Sprint**, el sprint al que pertenece; en **Prioridad**, alta, media o baja; en **Estado**, pendiente, en curso o hecha.
 
-##SCRUM BACKLOG (SPRINT 1 Y 2):
+## SCRUM BACKLOG (SPRINT 1 Y 2):
 
-**SPRINT 1** Durante el primer sprint organizamos el equipo y revisamos los requisitos recogidos en la charla con el cliente para comprender el problema que debiamos resolver. Identificamos como objetivo principal automatizar la facturación y la gestión de cobros, reduciendo la intervención manual en la operativa administrativa.
+**SPRINT 1:** Durante el primer sprint organizamos el equipo y revisamos los requisitos recogidos en la charla con el cliente para comprender el problema que debiamos resolver. Identificamos como objetivo principal automatizar la facturación y la gestión de cobros, reduciendo la intervención manual en la operativa administrativa.
 
 Además, acordamos los roles scrum, el reparto inicial de tareas y creamos un tablón de seguimiento con responsables, prioridades, estados y asignación por sprint. Como resultado, dispusimos de una base de organización y de una primera comprensión de los requisitos, tanto los de la charla como los de la ampliación.
 
-**SPRINT 2** Durante el segundo sprint revisamos la ampliación de requisitos y concretamos el funcionamiento esperado del sistema de facturación y cobros. 
+**SPRINT 2:** Durante el segundo sprint revisamos la ampliación de requisitos y concretamos el funcionamiento esperado del sistema de facturación y cobros. 
 
 A partir de este análisis, elaboramos la especificación de 33 casos de uso, con sus actores, precondiciones, escenarios principales, flujos alternativos, y preparamos el diagrama UML correspondiente. También elaboramos la presentación para contextualizar el trabajo de nuestro grupo durante estos dos primeros sprints de trabajo.
 
