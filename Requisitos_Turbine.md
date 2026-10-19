@@ -1,4 +1,4 @@
-# Requisitos funcionales y no funcionales - Turbineh
+# Requisitos - Turbineh
 
 ## 1. Requisitos de Negocio (RN)
 
