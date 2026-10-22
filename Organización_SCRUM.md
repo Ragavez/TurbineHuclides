@@ -33,13 +33,20 @@ Anotad aquí las tareas acordadas para el trabajo. Indicad una persona responsab
 |      T-06       |   PDF Diagrama Casos de Uso    | Víctor y Cristina                |    2    |        ALTA   |   COMPLETADO   |
 |       T-07      |   Presentación    |  Rocío              | 2        | MEDIA/ALTA          | COMPLETADO        |
 |       T-08      |  Scrum Backlog     |         Miguel       |     2   |    MEDIA       |   COMPLETADO     |
+|       T-09      | Diagrama UML de clases      |   Miguel, Victor y Cristina     |   3     |     ALTA      |    INCOMPLETO    |
+|     T-10     |Diagrama UML de secuencias       |    Chema, José y Rocío            | 3       |   ALTA       |  INCOMPLETO      |
+|     T-1*        |   Diagrama Entidad-Relacion    |  Miguel, Victor y Cristina              |    4    | MEDIA          |  INCOMPLETO     |
+|       T-1*      | Diagrama de componentes      |       Chema, José y Rocío         |   4     |     N/A      | INCOMPLETO       |
+|      T-1*       | Evaluación interna método de bolas      | TODOS        | 4       | BAJA/MEDIA          |INCOMPLETO        |
+| T-1*            |Presentación para exposición       |                | 4       | MEDIA          | INCOMPLETO       |
+|      T-1*       | Scrum Backlog      | Miguel               | 4       | MEDIA          |INCOMPLETO        |
 |             |       |                |        |           |        |
 |             |       |                |        |           |        |
-|             |       |                |        |           |        |
+
 
 En **ID de tarea**, un número o código; en **Tarea**, qué hay que hacer; en **Responsable(s)**, quién la hará; en **Sprint**, el sprint al que pertenece; en **Prioridad**, alta, media o baja; en **Estado**, pendiente, en curso o hecha.
 
-## SCRUM BACKLOG (SPRINT 1 Y 2):
+## SCRUM BACKLOG (SPRINTS 1 Y 2):
 
 **SPRINT 1:** Durante el primer sprint organizamos el equipo y revisamos los requisitos recogidos en la charla con el cliente para comprender el problema que debiamos resolver. Identificamos como objetivo principal automatizar la facturación y la gestión de cobros, reduciendo la intervención manual en la operativa administrativa.
 
@@ -48,5 +55,11 @@ Además, acordamos los roles scrum, el reparto inicial de tareas y creamos un ta
 **SPRINT 2:** Durante el segundo sprint revisamos la ampliación de requisitos y concretamos el funcionamiento esperado del sistema de facturación y cobros. 
 
 A partir de este análisis, elaboramos la especificación de 33 casos de uso, con sus actores, precondiciones, escenarios principales, flujos alternativos, y preparamos el diagrama UML correspondiente. También elaboramos la presentación para contextualizar el trabajo de nuestro grupo durante estos dos primeros sprints de trabajo.
+
+## SCRUM BACKLOG (SPRINTS 3 Y 4):
+
+**SPRINT3:**
+
+**SPRINT4:** 
 
 
