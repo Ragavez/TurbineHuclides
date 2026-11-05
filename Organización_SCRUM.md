@@ -35,7 +35,7 @@ Anotad aquí las tareas acordadas para el trabajo. Indicad una persona responsab
 |       T-08      |  Scrum Backlog     |         Miguel       |     2   |    MEDIA       |   COMPLETADO     |
 |     ------        | -----      |--------                |-----        |------           |-----        |
 |       T-09      | Diagrama UML de clases      |   Miguel, Victor y Cristina     |   3     |     ALTA      |    INCOMPLETO    |
-|     T-10     |Diagrama UML de secuencias       |    Chema, José y Rocío            | 3       |   ALTA       |  INCOMPLETO      |
+|     T-10     |Diagrama UML de secuencias       |    Chema, José y Rocío            | 3       |   ALTA       |  EN PROCESO      |
 |     T-1*        |   Diagrama Entidad-Relacion    |  Miguel, Victor y Cristina              |    4    | MEDIA          |  INCOMPLETO     |
 |       T-1*      | Diagrama de componentes      |       Chema, José y Rocío         |   4     |     N/A      | INCOMPLETO       |
 |      T-1*       | Evaluación interna método de bolas      | TODOS        | 4       | BAJA/MEDIA          |INCOMPLETO        |
