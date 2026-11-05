@@ -6,14 +6,14 @@ Este documento sirve para acordar los roles del equipo y mantener un registro de
 
 Cada integrante puede escribir su nombre y el rol que asume. En Scrum, no es necesario asignar a cada persona un cargo distinto.
 
-| Integrante                  | Rol | Responsabilidades |
-|-----------------------------|-----|-------------------|
-| Cristina Arranz Avilés      |Product owner|PDF Diagrama Casos de Uso|
-| José Bernal Carretero       | Developer    |PDF Casos de Uso|
-| José María Domínguez Torres | Developer    |PDF Casos de Uso|
-| Víctor Gallegos Ramírez     |Scrum Master|PDF Diagrama Casos de Uso|
-| Miguel de Lara Prades       | Developer    |SCRUM BACKLOG|
-| Rocío Troyano Gil           | Developer    |Presentación|
+| Integrante                  | Rol | 
+|-----------------------------|-----|
+| Cristina Arranz Avilés      |Product owner|
+| José Bernal Carretero       | Developer    |
+| José María Domínguez Torres | Developer    |
+| Víctor Gallegos Ramírez     |Scrum Master|
+| Miguel de Lara Prades       | Developer    |
+| Rocío Troyano Gil           | Developer    |
 
 En **Integrante**, el nombre completo; en **Rol**, Product Owner, Scrum Master o Developer; en **Responsabilidades**, las tareas principales de ese rol.
 
@@ -34,10 +34,10 @@ Anotad aquí las tareas acordadas para el trabajo. Indicad una persona responsab
 |       T-07      |   Presentación    |  Rocío              | 2        | MEDIA/ALTA          | COMPLETADO        |
 |       T-08      |  Scrum Backlog     |         Miguel       |     2   |    MEDIA       |   COMPLETADO     |
 |     ------        | -----      |--------                |-----        |------           |-----        |
-|       T-09      | Diagrama UML de clases      |   Miguel, Victor y Cristina     |   3     |     ALTA      |    INCOMPLETO    |
+|       T-09      | Diagrama UML de clases      |   Miguel, Victor y Cristina     |   3     |    MUY ALTA      |    COMPLETADO    |
 |     T-10     |Diagrama UML de secuencias       |    Chema, José y Rocío            | 3       |   ALTA       |  EN PROCESO      |
 |     T-1*        |   Diagrama Entidad-Relacion    |  Miguel, Victor y Cristina              |    4    | MEDIA          |  INCOMPLETO     |
-|       T-1*      | Diagrama de componentes      |       Chema, José y Rocío         |   4     |     N/A      | INCOMPLETO       |
+|       T-1*      | Diagrama de componentes      |       Chema, José y Rocío         |   4     |     MEDIA      | INCOMPLETO       |
 |      T-1*       | Evaluación interna método de bolas      | TODOS        | 4       | BAJA/MEDIA          |INCOMPLETO        |
 | T-1*            |Presentación para exposición       |                | 4       | MEDIA          | INCOMPLETO       |
 |      T-1*       | Scrum Backlog      | Miguel               | 4       | MEDIA          |INCOMPLETO        |
@@ -59,7 +59,7 @@ A partir de este análisis, elaboramos la especificación de 33 casos de uso, co
 
 ## SCRUM BACKLOG (SPRINTS 3 Y 4):
 
-**SPRINT3:**
+**SPRINT3:** Durante el tercer sprint nos organizamos en 2 grupos de 3 personas cada uno para ir realizando los 2 diagramas que hemos asignado a este sprint, Clases y Secuencia. Como proyecto principal tuvimos el Diagrama de clases debido a que este mismo marca parte de las bases para poder realizar el de Secuencia, por lo que le dimos mayor prioridad.
 
 **SPRINT4:** 
 
