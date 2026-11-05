@@ -1,0 +1,23 @@
+Entidades:
+-Cliente: cuenta bancaria (sería la pk), nombre empresa, correo, teléfono, dirección fiscal, suscripción (fk), tipo de moneda, Estado del cliente (pendiente,activo,pausado,bajaSolicitada,inactivo)
+-Suscripción: id suscripción (pk), tarifa, plan, condiciones, fechas, documentos firmados
+-Factura: id factura (pk), destinatario (fk cliente), importe, fecha, datos, campos, recurrente o puntual, estado
+--------------------------
+-Usuario: Id usuario (pk), Permisos, contraseña, nombre, Bandeja de trabajo
+-Admin (hereda de usuario)
+-Superadmin (Hereda de Admin)
+--------------------------
+-Solicitud: id solicitud (pk), solicitante (cliente fk), aprobador (usuario fk)
+-Sistema: Cliente (fk), Suscripción (fk), Factura (fk), Usuario (fk), calendario de avisos
+La_Langosta_Rosa_ — 2/11/26, 12:22
+-Cliente: cuenta bancaria (sería la pk), nombre empresa, correo, teléfono, dirección fiscal, suscripción (fk), tipo de moneda, Estado del cliente (pendiente,activo,pausado,bajaSolicitada,inactivo)
+-Suscripción: id suscripción (pk), tarifa, plan, condiciones, fechas, documentos firmados
+-Factura: id factura (pk), destinatario (fk cliente), importe, fecha, datos, campos, recurrente o puntual, estado
+--------------------------
+-Usuario: Id usuario (pk), Permisos, contraseña, nombre, Bandeja de trabajo
+-Admin (hereda de usuario)
+-Superadmin (Hereda de Admin)
+--------------------------
+-Solicitud: id solicitud (pk), solicitante (cliente fk), aprobador (usuario fk)
+-Avisos: id avisos (pk), Información, destinatario (cliente fk)
+-Sistema [Interfaz]: la implementan -> Cliente, suscripción, factura, usuario, avisos
