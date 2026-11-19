@@ -90,10 +90,6 @@ deactivate Sistema
 autonumber
 title Parte 2: Alta de Cliente y Detección de Duplicados (CU-01 / CU-03)
 
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 30
-skinparam BoxPadding 15
-
 actor "Usuario" as Operativo
 participant "«interfaz»\nSistema" as Sistema
 database "Base de Datos" as BD
@@ -137,9 +133,6 @@ deactivate Sistema
 autonumber
 title Parte 3: Crear Suscripción y Aprobación por Umbral (CU-04 / CU-05 / CU-09)
 
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 25
-skinparam BoxPadding 15
 
 actor "Usuario" as Operativo
 actor "Admin" as Admin
@@ -266,10 +259,6 @@ end
 autonumber
 title Parte 4: Lote Recurrente, Avisos e Incidencias (CU-10 / CU-12 / CU-15 / CU-21 / CU-22)
 
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 30
-skinparam BoxPadding 15
-
 actor "Motor de Automatización" as Motor
 actor "Usuario" as Operativo
 participant "«interfaz»\nSistema" as Sistema
@@ -380,10 +369,6 @@ deactivate Sistema
 @startuml
 autonumber
 title Parte 5: Pago Pasarela, Notificaciones y Conciliación Manual (CU-18 / CU-20 / CU-22)
-
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 30
-skinparam BoxPadding 15
 
 actor "Pasarela de Pagos (Stripe)" as Stripe
 actor "Usuario" as Operativo
@@ -525,10 +510,6 @@ end
 autonumber
 title Parte 6A: Importación Masiva de Clientes desde CSV (CU-02 include CU-03)
 
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 30
-skinparam BoxPadding 15
-
 actor "Usuario" as Operativo
 participant "«interfaz»\nSistema" as Sistema
 database "Base de Datos" as BD
@@ -574,10 +555,6 @@ deactivate Sistema
 @startuml
 autonumber
 title Parte 6B: Importación de Movimientos Bancarios (CU-19 include CU-20)
-
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 30
-skinparam BoxPadding 15
 
 actor "Usuario" as Operativo
 participant "«interfaz»\nSistema" as Sistema
@@ -645,10 +622,6 @@ deactivate Sistema
 @startuml
 autonumber
 title Parte 7A: Pausa, Reactivación y Baja Comercial (CU-06 / CU-07)
-
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 30
-skinparam BoxPadding 15
 
 actor "Usuario" as Operativo
 participant "«interfaz»\nSistema" as Sistema
@@ -730,10 +703,6 @@ deactivate Sistema
 autonumber
 title Parte 7B: Revisión Anual Automática de Rango (CU-08 extend CU-09)
 
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 35
-skinparam BoxPadding 15
-
 actor "Motor de Automatización" as Motor
 participant "«interfaz»\nSistema" as Sistema
 database "Base de Datos" as BD
@@ -777,10 +746,6 @@ deactivate Sistema
 @startuml
 autonumber
 title Parte 8A: Factura Puntual, Rectificativa y Deuda Incobrable (CU-11 / CU-13 / CU-14)
-
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 30
-skinparam BoxPadding 15
 
 actor "Usuario" as Operativo
 actor "Admin" as Admin
@@ -860,10 +825,6 @@ deactivate Sistema
 autonumber
 title Parte 8B: Disputas y Lote Diario de Recordatorios (CU-16 extend CU-17)
 
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 30
-skinparam BoxPadding 15
-
 actor "Usuario" as Operativo
 actor "Motor de Automatización" as Motor
 participant "«interfaz»\nSistema" as Sistema
@@ -934,10 +895,6 @@ deactivate Sistema
 @startuml
 autonumber
 title Parte 9A: Acceso, Consultas, Dashboard e Informes (CU-23 / CU-24 / CU-25 / CU-26 / CU-28)
-
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 30
-skinparam BoxPadding 15
 
 actor "Usuario" as Operativo
 actor "Admin" as Admin
@@ -1023,10 +980,6 @@ deactivate Sistema
 @startuml
 autonumber
 title Parte 9B: Administración del Sistema y API Externa (CU-27 / CU-31 / CU-32 / CU-33)
-
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 30
-skinparam BoxPadding 15
 
 actor "SuperAdmin" as SuperAdmin
 actor "Sistema Cliente (Brain)" as Brain
