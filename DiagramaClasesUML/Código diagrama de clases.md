@@ -1,6 +1,4 @@
 @startuml Turbine_clases_con_atributos
-' Vista del boceto acordado: atributos y relaciones, sin notas ni leyenda.
-' Los tipos de datos compuestos y enumeraciones se definen al final.
 top to bottom direction
 skinparam backgroundColor #FFFFFF
 skinparam defaultFontName SansSerif
@@ -116,18 +114,21 @@ class Avisos {
   -estado : EstadoAviso
 }
 
-' Realizacion de la interfaz e herencia del boceto original.
+' Realizacion completa de la interfaz y herencia
 Sistema <|.. Usuario
 Sistema <|.. Suscripcion
 Sistema <|.. Cliente
 Sistema <|.. Factura
 Sistema <|.. Avisos
+Sistema <|.. Pagos
+Sistema <|.. Solicitud
+
 Usuario <|-- Admin
 Admin <|-- SuperAdmin
 
-' Se mantiene el 1:1 Cliente-Suscripcion del boceto acordado.
-
-Suscripcion "1" -- "1" Cliente : suscripcion del cliente
+' Relaciones corregidas para consistencia con CU y Secuencias
+Usuario "0..1" -- "0..*" Cliente : responsable
+Suscripcion "0..1" -- "1" Cliente : suscripcion del cliente
 Cliente "1" -- "0..*" Factura : destinatario
 Suscripcion "0..1" -- "0..*" Factura : origina
 Factura "0..1" -- "0..*" Pagos : pagos asociados
@@ -135,3 +136,5 @@ Cliente "0..1" -- "0..*" Pagos : cliente asociado
 Cliente "1" -- "0..*" Solicitud : solicitante
 Usuario "0..1" -- "0..*" Solicitud : aprobador
 Cliente "1" -- "0..*" Avisos : destinatario
+
+@enduml
