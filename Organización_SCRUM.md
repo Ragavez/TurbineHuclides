@@ -36,7 +36,7 @@ Anotad aquí las tareas acordadas para el trabajo. Indicad una persona responsab
 |     ------        | -----      |--------                |-----        |------           |-----        |
 |       T-09      | Diagrama UML de clases      |   Miguel, Victor y Cristina     |   3     |    MUY ALTA      |    COMPLETADO    |
 |     T-10     |Diagrama UML de secuencias       |    Chema, José y Rocío            | 3       |   ALTA       |  COMPLETADO      |
-|     T-1*        |   Diagrama Entidad-Relacion    |  Miguel, Victor y Cristina              |    4    | MEDIA          |  INCOMPLETO     |
+|     T-1*        |   Diagrama Entidad-Relacion    |  Miguel, Victor y Cristina              |    4    | MEDIA          |  EN PROCESO    |
 |       T-1*      | Diagrama de componentes      |       Chema, José y Rocío         |   4     |     MEDIA      | EN PROCESO      |
 |      T-1*       | Evaluación interna método de bolas      | TODOS        | 4       | BAJA/MEDIA          |INCOMPLETO        |
 | T-1*            |Presentación para exposición       |                | 4       | MEDIA          | INCOMPLETO       |
