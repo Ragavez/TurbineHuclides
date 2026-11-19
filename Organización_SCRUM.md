@@ -59,7 +59,7 @@ A partir de este análisis, elaboramos la especificación de 33 casos de uso, co
 
 ## SCRUM BACKLOG (SPRINTS 3 Y 4):
 
-**SPRINT3:** Durante el tercer sprint nos organizamos en 2 grupos de 3 personas cada uno para ir realizando los 2 diagramas que hemos asignado a este sprint, Clases y Secuencia. Como proyecto principal tuvimos el Diagrama de clases debido a que este mismo marca parte de las bases para poder realizar el de Secuencia, por lo que le dimos mayor prioridad.
+**SPRINT3:** Durante el tercer sprint nos organizamos en 2 grupos de 3 personas cada uno para ir realizando los 2 diagramas que hemos asignado a este sprint, Clases y Secuencia. Como proyecto principal tuvimos el Diagrama de clases debido a que este mismo marca parte de las bases para poder realizar el de Secuencia, por lo que le dimos mayor prioridad. Por la parte del grupo que nos encargábamos del diagrama de secuencia al principio no tuvimos esto en cuenta por lo que necesitamos modificarlo luego para que sea consecuente con el diagrama de clases, este problema tras revisarlo quedao completamente cubierto.
 
 **SPRINT4:** 
 
