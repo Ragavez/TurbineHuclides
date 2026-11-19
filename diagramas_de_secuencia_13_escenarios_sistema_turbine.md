@@ -1,8 +1,3 @@
-# Diagramas de Secuencia — Sistema Turbine (13 Escenarios / 33 Casos de Uso)
-
-Este documento recopila los **13 diagramas de secuencia en PlantUML** que cubren la totalidad de los **33 casos de uso** del catálogo funcional de **Turbine**, garantizando trazabilidad 1:1 con el Diagrama de Clases (`«interfaz» Sistema`, `:Usuario`, `:Cliente`, `:Suscripcion`, `:Solicitud`, `:Factura`, `:Pagos`, `:Avisos`), validación de sesión previa (`validarSesionYPermisos`) y traducción formal de las relaciones `<<extend>>` mediante fragmentos combinados `alt` y `opt`.
-
----
 
 ## Parte 1: Gestión de Usuarios y Asignación de Clientes (CU-29 / CU-30 / CU-22)
 
