@@ -6,10 +6,6 @@
 autonumber
 title Parte 1: Gestión de Usuarios y Asignación de Clientes (CU-29 / CU-30)
 
-skinparam sequenceMessageAlign center
-skinparam ParticipantPadding 30
-skinparam BoxPadding 15
-
 actor "Admin" as Admin
 actor "Usuario" as Operativo
 participant "«interfaz»\nSistema" as Sistema
