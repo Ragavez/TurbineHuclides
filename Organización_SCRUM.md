@@ -35,7 +35,7 @@ Anotad aquí las tareas acordadas para el trabajo. Indicad una persona responsab
 |       T-08      |  Scrum Backlog     |         Miguel       |     2   |    MEDIA       |   COMPLETADO     |
 |     ------        | -----      |--------                |-----        |------           |-----        |
 |       T-09      | Diagrama UML de clases      |   Miguel, Victor y Cristina     |   3     |    MUY ALTA      |    COMPLETADO    |
-|     T-10     |Diagrama UML de secuencias       |    Chema, José y Rocío            | 3       |   ALTA       |  INCOMPLETO      |
+|     T-10     |Diagrama UML de secuencias       |    Chema, José y Rocío            | 3       |   ALTA       |  COMPLETADO      |
 |     T-1*        |   Diagrama Entidad-Relacion    |  Miguel, Victor y Cristina              |    4    | MEDIA          |  EN PROCESO    |
 |       T-1*      | Diagrama de componentes      |       Chema, José y Rocío         |   4     |     MEDIA      | EN PROCESO      |
 |      T-1*       | Evaluación interna método de bolas      | TODOS        | 4       | BAJA/MEDIA          |INCOMPLETO        |
@@ -59,8 +59,8 @@ A partir de este análisis, elaboramos la especificación de 33 casos de uso, co
 
 ## SCRUM BACKLOG (SPRINTS 3 Y 4):
 
-**SPRINT3:** Durante el tercer sprint nos organizamos en 2 grupos de 3 personas cada uno para ir realizando los 2 diagramas que hemos asignado a este sprint, Clases y Secuencia. Como proyecto principal tuvimos el Diagrama de clases debido a que este mismo marca parte de las bases para poder realizar el de Secuencia, por lo que le dimos mayor prioridad. Por la parte del grupo que nos encargábamos del diagrama de secuencia al principio no tuvimos esto en cuenta por lo que necesitamos modificarlo luego para que sea consecuente con el diagrama de clases, este problema tras revisarlo quedao completamente cubierto.
+**SPRINT3:** Durante el tercer sprint nos organizamos en 2 grupos de 3 personas cada uno para ir realizando los 2 diagramas que hemos asignado a este sprint, Clases y Secuencia. Como proyecto principal tuvimos el Diagrama de clases debido a que este mismo marca parte de las bases para poder realizar el de Secuencia, por lo que le dimos mayor prioridad. Con el diagrama de clases tuvimos algún problema al principio del sprint, no sabiamos bien como enfocarlo, ni cuantas clases debíamos realizar, por lo que tardamos un más de la estipulado. Hicimos primeramente un boceto de lo que queríamos que fuese nuestro diagrama, para posteriormente añadir algunas cosas que habíamos pasado por alto y pasar nuestro boceto a PlantUML. Por la parte del grupo que nos encargábamos del diagrama de secuencia al principio no tuvimos esto en cuenta por lo que necesitamos modificarlo luego para que sea consecuente con el diagrama de clases, este problema tras revisarlo quedado completamente cubierto.
 
-**SPRINT4:** 
+**SPRINT4:** En el inicio del sprint 4 nos hemos enfocado en escoger las Entidades, Relaciones y atributos que queremos plasmar en el Diagrama de E/R. Para ello estamos cogiendo bastante información de nuestro Diagrama de Clases, completado en el anterior Sprint.
 
 
