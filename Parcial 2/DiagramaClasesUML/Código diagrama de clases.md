@@ -29,10 +29,20 @@ class Usuario {
   -permisos : String [0..*]
   -activo : Boolean
   -/bandejaTrabajo : ItemBandeja [0..*]
+  --
+  +verificarContrasena(contrasena : String) : Boolean
+  +tienePermiso(permiso : String) : Boolean
+  +consultarBandeja() : List<ItemBandeja>
 }
 
-class Admin
-class SuperAdmin
+class Admin {
+  +cambiarPermisos(usuario : Usuario, permisos : List<String>) : void
+  +asignarCliente(cliente : Cliente, responsable : Usuario) : void
+}
+
+class SuperAdmin {
+  +configurarSistema(parametro : String, valor : String) : void
+}
 
 class Cliente {
   -idCliente : UUID {id}
@@ -45,6 +55,10 @@ class Cliente {
   -contactos : Contacto [0..*]
   -moneda : String
   -estado : EstadoCliente
+  --
+  +actualizarDatos(datos : DatosFiscales) : void
+  +cambiarEstado(estado : EstadoCliente) : void
+  +anadirContacto(contacto : Contacto) : void
 }
 
 class Suscripcion {
@@ -59,6 +73,12 @@ class Suscripcion {
   -fechaBajaEfectiva : Date [0..1]
   -estado : EstadoSuscripcion
   -documentosFirmados : String [0..*]
+  --
+  +calcularProrrateo(desde : Date, hasta : Date) : Decimal
+  +pausar() : void
+  +reactivar() : void
+  +cancelar(fechaEfectiva : Date) : void
+  +actualizarTarifa(tarifa : Decimal) : void
 }
 
 class Factura {
@@ -82,6 +102,11 @@ class Factura {
   -estadoCobro : EstadoCobro
   -archivoPDF : String [0..1]
   -claveEmision : String
+  --
+  +calcularTotal() : Decimal
+  +emitir() : void
+  +generarRectificativa(motivo : String) : Factura
+  +calcularSaldoPendiente() : Decimal
 }
 
 class Pagos {
@@ -93,6 +118,9 @@ class Pagos {
   -idOperacionOrigen : String
   -referencia : String [0..1]
   -estadoRevision : EstadoPago
+  --
+  +asociarFactura(factura : Factura) : void
+  +validarImporte(importeEsperado : Decimal) : Boolean
 }
 
 class Solicitud {
@@ -104,6 +132,9 @@ class Solicitud {
   -estado : EstadoSolicitud
   -fechaResolucion : DateTime [0..1]
   -comentarioResolucion : String [0..1]
+  --
+  +aprobar(aprobador : Usuario) : void
+  +rechazar(aprobador : Usuario, motivo : String) : void
 }
 
 class Avisos {
@@ -112,6 +143,10 @@ class Avisos {
   -informacion : String
   -fechaProgramada : DateTime
   -estado : EstadoAviso
+  --
+  +programar(fecha : DateTime) : void
+  +cancelar() : void
+  +pausar() : void
 }
 
 ' Realizacion completa de la interfaz y herencia
