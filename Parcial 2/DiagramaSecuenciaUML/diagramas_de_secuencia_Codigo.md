@@ -503,7 +503,7 @@ end
 
 ---
 
-## Parte 6A: Importación Masiva de Clientes desde CSV (CU-02 / CU-03)
+## Parte 6: Importación Masiva de Clientes desde CSV (CU-02 / CU-03)
 
 ```plantuml
 @startuml
@@ -549,7 +549,7 @@ deactivate Sistema
 
 ---
 
-## Parte 6B: Importación de Extractos Bancarios y Conciliación (CU-19 / CU-20)
+## Parte 7: Importación de Extractos Bancarios y Conciliación (CU-19 / CU-20)
 
 ```plantuml
 @startuml
@@ -616,7 +616,7 @@ deactivate Sistema
 
 ---
 
-## Parte 7A: Pausar, Reactivar y Baja Comercial de Suscripción (CU-06 / CU-07)
+## Parte 8: Pausar, Reactivar y Baja Comercial de Suscripción (CU-06 / CU-07)
 
 ```plantuml
 @startuml
@@ -696,7 +696,7 @@ deactivate Sistema
 
 ---
 
-## Parte 7B: Revisión Anual Automática de Rango (CU-08 / CU-09)
+## Parte 9: Revisión Anual Automática de Rango (CU-08 / CU-09)
 
 ```plantuml
 @startuml
@@ -740,7 +740,7 @@ deactivate Sistema
 
 ---
 
-## Parte 8A: Facturación Puntual, Rectificativas y Deuda Incobrable (CU-11 / CU-13 / CU-14)
+## Parte 10: Facturación Puntual, Rectificativas y Deuda Incobrable (CU-11 / CU-13 / CU-14)
 
 ```plantuml
 @startuml
@@ -818,7 +818,7 @@ deactivate Sistema
 
 ---
 
-## Parte 8B: Gestión de Disputas y Lote Diario de Recordatorios (CU-16 / CU-17)
+## Parte 11: Gestión de Disputas y Lote Diario de Recordatorios (CU-16 / CU-17)
 
 ```plantuml
 @startuml
@@ -889,7 +889,7 @@ deactivate Sistema
 
 ---
 
-## Parte 9A: Inicio de Sesión, Consultas e Informes (CU-23 / CU-24 / CU-25 / CU-26 / CU-28)
+## Parte 12: Inicio de Sesión, Consultas e Informes (CU-23 / CU-24 / CU-25 / CU-26 / CU-28)
 
 ```plantuml
 @startuml
@@ -974,7 +974,7 @@ deactivate Sistema
 
 ---
 
-## Parte 9B: Administración del Sistema y API Externa (CU-27 / CU-31 / CU-32 / CU-33)
+## Parte 13: Administración del Sistema y API Externa (CU-27 / CU-31 / CU-32 / CU-33)
 
 ```plantuml
 @startuml
