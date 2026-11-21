@@ -508,7 +508,7 @@ end
 ```plantuml
 @startuml
 autonumber
-title Parte 6A: Importación Masiva de Clientes desde CSV (CU-02 include CU-03)
+title Parte 6: Importación Masiva de Clientes desde CSV (CU-02 include CU-03)
 
 actor "Usuario" as Operativo
 participant "«interfaz»\nSistema" as Sistema
@@ -554,7 +554,7 @@ deactivate Sistema
 ```plantuml
 @startuml
 autonumber
-title Parte 6B: Importación de Movimientos Bancarios (CU-19 include CU-20)
+title Parte 7: Importación de Movimientos Bancarios (CU-19 include CU-20)
 
 actor "Usuario" as Operativo
 participant "«interfaz»\nSistema" as Sistema
@@ -621,7 +621,7 @@ deactivate Sistema
 ```plantuml
 @startuml
 autonumber
-title Parte 7A: Pausa, Reactivación y Baja Comercial (CU-06 / CU-07)
+title Parte 8: Pausa, Reactivación y Baja Comercial (CU-06 / CU-07)
 
 actor "Usuario" as Operativo
 participant "«interfaz»\nSistema" as Sistema
@@ -701,7 +701,7 @@ deactivate Sistema
 ```plantuml
 @startuml
 autonumber
-title Parte 7B: Revisión Anual Automática de Rango (CU-08 extend CU-09)
+title Parte 9: Revisión Anual Automática de Rango (CU-08 extend CU-09)
 
 actor "Motor de Automatización" as Motor
 participant "«interfaz»\nSistema" as Sistema
@@ -745,7 +745,7 @@ deactivate Sistema
 ```plantuml
 @startuml
 autonumber
-title Parte 8A: Factura Puntual, Rectificativa y Deuda Incobrable (CU-11 / CU-13 / CU-14)
+title Parte 10: Factura Puntual, Rectificativa y Deuda Incobrable (CU-11 / CU-13 / CU-14)
 
 actor "Usuario" as Operativo
 actor "Admin" as Admin
@@ -823,7 +823,7 @@ deactivate Sistema
 ```plantuml
 @startuml
 autonumber
-title Parte 8B: Disputas y Lote Diario de Recordatorios (CU-16 extend CU-17)
+title Parte 11: Disputas y Lote Diario de Recordatorios (CU-16 extend CU-17)
 
 actor "Usuario" as Operativo
 actor "Motor de Automatización" as Motor
@@ -894,7 +894,7 @@ deactivate Sistema
 ```plantuml
 @startuml
 autonumber
-title Parte 9A: Acceso, Consultas, Dashboard e Informes (CU-23 / CU-24 / CU-25 / CU-26 / CU-28)
+title Parte 12: Acceso, Consultas, Dashboard e Informes (CU-23 / CU-24 / CU-25 / CU-26 / CU-28)
 
 actor "Usuario" as Operativo
 actor "Admin" as Admin
@@ -979,7 +979,7 @@ deactivate Sistema
 ```plantuml
 @startuml
 autonumber
-title Parte 9B: Administración del Sistema y API Externa (CU-27 / CU-31 / CU-32 / CU-33)
+title Parte 13: Administración del Sistema y API Externa (CU-27 / CU-31 / CU-32 / CU-33)
 
 actor "SuperAdmin" as SuperAdmin
 actor "Sistema Cliente (Brain)" as Brain
