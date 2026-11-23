@@ -75,6 +75,19 @@ entity Contacto{
 *idioma : VARCHAR
 }
 
+entity Pagos{
+*id : UUID <<PK>>
+*importe : DECIMAL
+*moneda : VARCHAR
+*fecha recepción : TIMESTAMP
+*origen : VARCHAR
+*id operación origen : VARCHAR
+referencia : VARCHAR
+*estado revisión : VARCHAR
+idCliente : UUID <<FK>>
+idFactura : UUID <<FK>>
+}
+
 Usuario ||--o{ Solicitud : aprueba
 Usuario ||--o{ Cliente : registra
 Usuario }|--|| Trabajador : [hereda]
@@ -89,5 +102,8 @@ Cliente ||--|| Suscripción : escoge
 Factura }o--|| Suscripción : incluye
 Factura ||--|| Líneas_Factura : incluye
 Avisos ||--o{ Cliente : avisa
+
+Cliente |o--o{ Pagos : realiza
+Factura |o--o{ Pagos : recibe
 
 @enduml
